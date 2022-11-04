@@ -2,8 +2,10 @@
 #include<stdio.h>
 #include<iostream>
 #include<queue>
+#include<stack>
 #define ElemType int
 using std::queue;
+using std::stack;
 
 typedef struct BitNode
 {
@@ -27,3 +29,6 @@ void ProOrder_1(BitTree p);
 void LevelOrder(BitTree p);
 
 
+bool creatBinTree(BitTree& BT);
+void To_Tree(BitTree& t, int a[], int begin, int end);
+void PostOrder_1(BitTree p);
