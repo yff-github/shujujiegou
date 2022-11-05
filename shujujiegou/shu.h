@@ -31,6 +31,9 @@ void LevelOrder(BitTree p);
 
 bool creatBinTree(BitTree& BT);
 void To_Tree(BitTree& t, int a[], int begin, int end);
+void PostOrder_1(BitTree p);
+bool creatBinTree(BitTree& BT);
+void To_Tree(BitTree& t, int a[], int begin, int end);
 void PostOrder_1_1(BitTree p);
 //非递归求最大深度
 int Btdepth(BitTree t);
